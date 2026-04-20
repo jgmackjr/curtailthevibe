@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Site</title>
+<style>
+body {
+font-family: Arial;
+background: #111;
+color: white;
+text-align: center;
+padding: 50px;
+}
+
+button {
+padding: 10px 20px;
+background: #00ffcc;
+border: none;
+cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<h1>curtailthevibe</h1>
+<p>curtailthevibe</p>
+
+<button onclick="changeText()">Click me</button>
+
+<script>
+function changeText() {
+document.querySelector("p").innerText = "You clicked the button!";
+}
+</script>
+</body>
+</html>
